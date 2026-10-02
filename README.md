@@ -8,9 +8,11 @@ The system measures the distance between the sensor and an object and provides v
 
 ![Smart Parking Sensor](project.jpg)
 
-![Project Close-up](project_closeup.jpg)
+![Project Close-up](project1.jpg)
 
-▶️ [Watch the demo video](demo.mp4)
+
+https://github.com/user-attachments/assets/d93fb62f-40ca-45eb-bc1b-0cd40d8799b9
+
 
 ## Features
 
