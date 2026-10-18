@@ -44,7 +44,9 @@ https://github.com/user-attachments/assets/d93fb62f-40ca-45eb-bc1b-0cd40d8799b9
 | Green LED | 2 |
 | Yellow LED | 4 |
 | Red LED | 7 |
-| Buzzer | 6 |
+| Buzzer (+) | 12 |
+
+Each LED is connected through a 220Ω or 330Ω resistor to GND. The buzzer's negative leg goes to GND.
 
 HC-SR04 power connections:
 
@@ -79,11 +81,12 @@ Through this project I learned:
 - How to control multiple outputs using sensor data
 - How to use a passive buzzer with `tone()` and `noTone()`
 
-## Arduino Code
+## How to Run
 
-The complete Arduino code is available here:
-
-[`smart_parking_sensor.ino`](smart_parking_sensor.ino)
+1. Build the circuit as shown in the pin table.
+2. Open [`smart_parking_sensor.ino`](smart_parking_sensor.ino) in the Arduino IDE.
+3. Select **Arduino Uno** as the board and upload the sketch.
+4. Open the Serial Monitor at **9600 baud** to see the measured distance.
 
 ## Future Improvements
 
